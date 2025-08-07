@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 1 * * *'  # 日本時間 10:00 に実行
   workflow_dispatch:  #手動実行
-
+ 
 jobs:
   run-script:
     runs-on: ubuntu-latest
